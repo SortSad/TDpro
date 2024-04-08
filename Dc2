@@ -34,7 +34,7 @@ getgenv().Config = {
     ["2xLuckBoost"] = false,
     ["2xXPBoost_Easter2024"] = false,
     ["2xEggsBoost"] = true,
-    ["2xCoinsBoost"] = false,
+    ["2xCoinsBoost"] = true,
 }
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
