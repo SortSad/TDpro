@@ -1,11 +1,11 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1222218257637970041/1222218258497671282/thiendinh.json?ex=66156a74&is=6602f574&hm=c97c0c58747befe3045bb6b8a29bf7009f9ec6b201e6c959f1b35c696ee7aa8d&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1139559289996972169/1228973836431790140/message.txt?ex=662dfe13&is=661b8913&hm=4be1c260d53aef959a23e6e32a79dc4c8b9f0f59e42ab187512f2ddf3878ebe4&"
 getgenv().Key = "kb3c0e5e921a0076c72a2366"
 getgenv().Config = {
     ["AutoJoinMatch"] = true,
     ["AutoReplay"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
+    ["SelectMap"] = "Toilet City",
     ["SelectMacro"] = "Nousigi Hub/Macro/thiendinh",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
@@ -33,8 +33,8 @@ getgenv().Config = {
     ["2xCloversBoost"] = false,
     ["2xLuckBoost"] = false,
     ["2xXPBoost_Easter2024"] = false,
-    ["2xEggsBoost"] = true,
-    ["2xCoinsBoost"] = false,
+    ["2xEggsBoost"] = false,
+    ["2xCoinsBoost"] = true,
 }
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
