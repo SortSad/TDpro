@@ -1,1 +1,40 @@
-
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1222218257637970041/1222218258497671282/thiendinh.json?ex=66156a74&is=6602f574&hm=c97c0c58747befe3045bb6b8a29bf7009f9ec6b201e6c959f1b35c696ee7aa8d&"
+getgenv().Key = "kb3c0e5e921a0076c72a2366"
+getgenv().Config = {
+    ["AutoJoinMatch"] = true,
+    ["AutoReplay"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["SelectMap"] = "Egg Island",
+    ["SelectMacro"] = "Nousigi Hub/Macro/thiendinh",
+    ["AutoVoteDifficulty"] = "true",
+    ["SelectDifficulty"] = "Nightmare",
+    ["AutoSkip"] = true,
+    ["DeleteMap"] = true,
+    ["PlayMacro"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEasterQuest"] = true,
+    ["AutoClaimEventPass"] = true,
+    ["WhiteScreen"] = true,
+    ["DelayJoin"] = "30",
+    ["PlacingFailsafe"] = true,
+    ["ExchangeTier"] = "3",
+    ["AutoExchangeEgg"] = "false",
+    ["MailName"] = "acc nhan gem",
+    ["RequiredGem"] = 1000,
+    ["AutoMail"] = false,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1221165994379186217/11JczG2ZWdiqOSqPTCBOxqUh6Kw8l6-hr4oTZsdnhY0km8ov4M6RbOslqhjvilaVzEy1",
+    ["AutoUseBoost"] = true,
+    ["UseAll"] = false,
+    ["UseBoosts"] = {
+    ["2xCloversBoost"] = false,
+    ["2xLuckBoost"] = false,
+    ["2xXPBoost_Easter2024"] = false,
+    ["2xEggsBoost"] = true,
+    ["2xCoinsBoost"] = false,
+}
+}
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
