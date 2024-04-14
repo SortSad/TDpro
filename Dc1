@@ -1,12 +1,12 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1139559289996972169/1228973836431790140/message.txt?ex=662dfe13&is=661b8913&hm=4be1c260d53aef959a23e6e32a79dc4c8b9f0f59e42ab187512f2ddf3878ebe4&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1228979664538828851/ttd.json.txt?ex=662e0381&is=661b8e81&hm=9299b511339408162875baca580900f49b490a5a864679505dbb18569c106a99&"
 getgenv().Key = "kb3c0e5e921a0076c72a2366"
 getgenv().Config = {
     ["AutoJoinMatch"] = true,
     ["AutoReplay"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Toilet City",
-    ["SelectMacro"] = "Nousigi Hub/Macro/thiendinh",
+    ["SelectMacro"] = "Nousigi Hub/Macro/ttd",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
     ["AutoSkip"] = true,
