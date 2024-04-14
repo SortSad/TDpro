@@ -18,6 +18,7 @@ getgenv().Config = {
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
     ["WhiteScreen"] = true,
+    ["IgnoreMacroTiming"] = true,
     ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "3",
