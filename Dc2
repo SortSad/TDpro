@@ -1,12 +1,12 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1222218257637970041/1222218258497671282/thiendinh.json?ex=66156a74&is=6602f574&hm=c97c0c58747befe3045bb6b8a29bf7009f9ec6b201e6c959f1b35c696ee7aa8d&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1228979664538828851/ttd.json.txt?ex=662e0381&is=661b8e81&hm=9299b511339408162875baca580900f49b490a5a864679505dbb18569c106a99&"
 getgenv().Key = "kd5bb969d0e9b0fa22f6448f"
 getgenv().Config = {
     ["AutoJoinMatch"] = true,
     ["AutoReplay"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
-    ["SelectMacro"] = "Nousigi Hub/Macro/thiendinh",
+    ["SelectMap"] = "Toilet City",
+    ["SelectMacro"] = "Nousigi Hub/Macro/ttd",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
     ["AutoSkip"] = true,
@@ -18,7 +18,7 @@ getgenv().Config = {
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
     ["WhiteScreen"] = true,
-    ["DelayJoin"] = "60",
+    ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "3",
     ["AutoExchangeEgg"] = "false",
@@ -33,7 +33,7 @@ getgenv().Config = {
     ["2xCloversBoost"] = false,
     ["2xLuckBoost"] = false,
     ["2xXPBoost_Easter2024"] = false,
-    ["2xEggsBoost"] = true,
+    ["2xEggsBoost"] = false,
     ["2xCoinsBoost"] = true,
 }
 }
