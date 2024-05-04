@@ -1,0 +1,22 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/888605470217080856/1234464196763320382/loisprite.json?ex=6630d3df&is=662f825f&hm=ae9dc1e302fe6345e673b1f235fbf4a9ca4e125bfd518cbacdf7db2290282b75&"
+getgenv().EquipMacroTroop = true
+getgenv().Config = {
+    ["AutoRejoin"] = true,
+    ["AutoJoinMatch"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["SelectMap"] = "ToiletTown",
+    ["SelectMacro"] = "loisprite",
+    ["GameSpeed"] = "2",
+    ["AutoVoteDifficulty"] = "true",
+    ["SelectDifficulty"] = "Insane",
+    ["AutoReplay"] = true,
+    ["AutoSkip"] = true,
+    ["PlayMacro"] = true,
+    ["SetGameSpeed"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["BlackScreen"] = true,
+}
+getgenv().Key = "ke6982796efa8c52a555e7d9"
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
