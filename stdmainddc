@@ -1,5 +1,5 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/888605470217080856/1234464196763320382/loisprite.json?ex=6630d3df&is=662f825f&hm=ae9dc1e302fe6345e673b1f235fbf4a9ca4e125bfd518cbacdf7db2290282b75&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1236542511179104287/loisprite.json?ex=66386374&is=663711f4&hm=43f4f47ec0176152926855907b37a7d11a08be7310e7270086a17f370da1a582&"
 getgenv().Config = {
     ["AutoRejoin"] = true,
     ["AutoJoinMatch"] = true,
