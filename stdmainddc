@@ -1,10 +1,10 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/888605470217080856/1234519060868366529/loisprite.json?ex=66384738&is=6636f5b8&hm=4d58de2e9e93fb99ae478724b8638d91a98e187ce5d54d4ca76e626cd216c39a&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1236542511179104287/loisprite.json?ex=66386374&is=663711f4&hm=43f4f47ec0176152926855907b37a7d11a08be7310e7270086a17f370da1a582&"
 getgenv().Config = {
     ["AutoRejoin"] = true,
     ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Evil",
+    ["SelectMap"] = "ToiletTown",
     ["SelectMacro"] = "loisprite",
     ["GameSpeed"] = "2",
     ["AutoVoteDifficulty"] = "true",
