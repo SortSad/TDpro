@@ -1,13 +1,11 @@
- wait(5)
 getgenv().Config = {
     Start = true,
-    ServerHop = true,
-    HopMode = "Normal", --// VIP/Tech VIP/Normal
+    BankLimit = 1, --// Max: 4 / Min: 1
     Webhooks = {
-        Send = true,
+        Send = true, --// PLEASE SET true if you want webhook notifications
         Webhook = "https://discord.com/api/webhooks/1240374768306356314/EtLezBUmYV3zERt0LfSwW1pZjeJuMvpcCKOAnAvKD10FYKykaeBS2MUVmJZwIX0P4uxP",
-        PingOnHuge = true,
-        UserId = "597362903582244883"
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/378a9896656af23e5819ba369039c77a.lua"))()
+
+script_key = "gtBjSbzRpcdirbDDlSMuZCSyIOUDBray";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/704fc11ec3d4a932261d9731bdd444f8.lua"))()
