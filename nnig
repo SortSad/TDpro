@@ -1,0 +1,12 @@
+getgenv().Config = {
+    Start = true,
+    ServerHop = true,
+    HopMode = "Normal", --// VIP/Tech VIP/Normal
+    Webhooks = {
+        Send = rue,
+        Webhook = "https://discord.com/api/webhooks/1240757520969109674/h8bBm9y--GvtHu6fAr44IgkenaWUah4ucEn22choyBVz0bBHUC5XpwgOjpZnaDEAOI6t",
+        PingOnHuge = true,
+        UserId = "597362903582244883"
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/378a9896656af23e5819ba369039c77a.lua"))()
