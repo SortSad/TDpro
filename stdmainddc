@@ -1,6 +1,6 @@
 getgenv().Config = {
     Start = true,
-    BankLimit = 1, --// Max: 4 / Min: 1
+    BankLimit = 3, --// Max: 4 / Min: 1
     Webhooks = {
         Send = true, --// PLEASE SET true if you want webhook notifications
         Webhook = "https://discord.com/api/webhooks/1240374768306356314/EtLezBUmYV3zERt0LfSwW1pZjeJuMvpcCKOAnAvKD10FYKykaeBS2MUVmJZwIX0P4uxP",
