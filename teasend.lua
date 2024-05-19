@@ -1,5 +1,5 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1241833219603697744/Sort.json?ex=664ba2cf&is=664a514f&hm=fc0118b6532d6301a7dd135d9ca46c1fe4519f84d6fd1aae929465fdcb959930&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1241852203338174636/Mimiw.json?ex=664bb47d&is=664a62fd&hm=60e81cf2b811a966d6e497e5f4aa7f10e62dd117f5542769aa70ba6d22b3ecad&"
 getgenv().Config = {
 	["AutoVoteDifficulty"] = true,
 	["DelayReplay"] = 5,
@@ -9,7 +9,7 @@ getgenv().Config = {
 	["TPLobbyIfPlayer"] = true,
 	["WH_MailSent"] = false,
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "Sort",
+	["SelectMacro"] = "Mimiw",
 	["PlaceFailsafe"] = true,
 	["PlayMacro"] = true,
 	["AutoMail"] = false,
