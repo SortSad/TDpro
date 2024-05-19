@@ -1,6 +1,5 @@
 getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1241833219603697744/Sort.json?ex=664ba2cf&is=664a514f&hm=fc0118b6532d6301a7dd135d9ca46c1fe4519f84d6fd1aae929465fdcb959930&"
-getgenv().Key = "kb3c0e5e921a0076c72a2366"
 getgenv().Config = {
     ["AutoJoinMatch"] = true,
     ["AutoReplay"] = true,
@@ -32,4 +31,5 @@ getgenv().Config = {
     ["2xCoinsBoost"] = true,
 }
 }
+getgenv().Key = "kb3c0e5e921a0076c72a2366"
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
