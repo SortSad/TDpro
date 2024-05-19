@@ -1,13 +1,13 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1229244470977892452/message.txt?ex=662efa20&is=661c8520&hm=fcb44b0daf30562e4b0ad7762be46d05d69136237237c57e3c0b9df60c289229&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1241833219603697744/Sort.json?ex=664ba2cf&is=664a514f&hm=fc0118b6532d6301a7dd135d9ca46c1fe4519f84d6fd1aae929465fdcb959930&"
 getgenv().Key = "kb3c0e5e921a0076c72a2366"
 getgenv().Config = {
-    ["AutoJoinMatch"] = false,
+    ["AutoJoinMatch"] = true,
     ["AutoReplay"] = true,
     ["AutoJoinEndless"]=true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Toilet City",
-    ["SelectMacro"] = "Nousigi Hub/Macro/message",
+    ["SelectMap"] = "TimeFactory (Rewind)",
+    ["SelectMacro"] = "Nousigi Hub/Macro/Sort",
     ["AutoVoteDifficulty"] = "false",
     ["SelectDifficulty"] = "Nightmare",
     ["AutoSkip"] = true,
@@ -22,20 +22,13 @@ getgenv().Config = {
     ["IgnoreMacroTiming"] = true,
     ["DelayJoin"] = "60",
     ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "3",
-    ["AutoExchangeEgg"] = "false",
-    ["MailName"] = "acc nhan gem",
-    ["RequiredGem"] = 1000,
     ["AutoMail"] = false,
     ["WH_MatchComplete"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1219686978686025882/VSKhvDz9cKlpG8loGBs60i6qwqpW0XHwSAqx0GA1jo6eXKSZYUTwL8lYpCsR8TgFCimw",
     ["AutoUseBoost"] = true,
     ["UseAll"] = false,
     ["UseBoosts"] = {
-    ["2xCloversBoost"] = false,
     ["2xLuckBoost"] = false,
-    ["2xXPBoost_Easter2024"] = false,
-    ["2xEggsBoost"] = false,
     ["2xCoinsBoost"] = true,
 }
 }
