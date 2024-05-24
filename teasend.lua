@@ -17,7 +17,7 @@ getgenv().Config = {
     ["SetGameSpeed"] = true,
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
-    ["BlackScreen"] = true,
+    ["BlackScreen"] = false,
     ["IgnoreMacroTiming"] = true,
 }
 getgenv().Key = "ke6982796efa8c52a555e7d9"
