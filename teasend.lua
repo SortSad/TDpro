@@ -11,7 +11,6 @@ getgenv().Config = {
     ["GameSpeed"] = "2",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Insane",
-    ["AutoReplay"] = true,
     ["AutoSkip"] = true,
     ["PlayMacro"] = true,
     ["SetGameSpeed"] = true,
