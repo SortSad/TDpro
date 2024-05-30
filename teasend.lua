@@ -1,3 +1,4 @@
+getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1245589911072018474/mix.json?ex=66594d80&is=6657fc00&hm=f2ee8eaa077884f356dc22c6e98f214b7732797ab5d33f6a5a709b58aba50e92&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
