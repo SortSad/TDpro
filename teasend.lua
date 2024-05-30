@@ -3,7 +3,7 @@ getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
 	["BlackScreen"] = false,
-	["AutoReturnLobby"] = false,
+	["AutoReturnLobby"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
 	["SelectWorld"] = "Windmill Village",
@@ -28,7 +28,7 @@ getgenv().Config = {
 	["PlayMacro"] = true,
 	["BoostFPS"] = true,
 	["AutoReplay"] = false,
-	["AutoLeave"] = true
+	["AutoLeave"] = false
 }
 getgenv().Key = "ke6982796efa8c52a555e7d9"
 repeat wait() until game:IsLoaded()
