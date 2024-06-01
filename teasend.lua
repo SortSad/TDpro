@@ -29,6 +29,7 @@ getgenv().Config = {
 	["PlayMacro"] = true,
 	["BoostFPS"] = true,
 	["AutoReplay"] = false,
+        ["AutoClaimQuest"] = true,
 	["AutoLeave"] = false
 }
 getgenv().Key = "ke6982796efa8c52a555e7d9"
