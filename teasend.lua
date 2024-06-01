@@ -1,36 +1,24 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1245978790539296860/farminV2.json?ex=665ab7ac&is=6659662c&hm=fd43c6009dc2364147c67d467a48025e24d3381466ec24b422ccc9d13f169c06&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1236542511179104287/loisprite.json?ex=66386374&is=663711f4&hm=43f4f47ec0176152926855907b37a7d11a08be7310e7270086a17f370da1a582&"
 getgenv().Config = {
-	["SelectChapter"] = "Infinite",
-	["AutoSave"] = true,
-	["BlackScreen"] = false,
-	["AutoReturnLobby"] = true,
-	["WH_MatchComplete"] = true,
-	["AutoSkip"] = true,
-	["SelectWorld"] = "Windmill Village",
-	["TPLobbyIfPlayer"] = true,
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "farminV2",
-	["AutoJoinChallenge"] = false,
-	["HardMode"] = false,
-	["LeaveSellWave"] = 29,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Gold"] = false,
-		["Star Rift (Rainbow)"] = false,
-		["Gems"] = false,
-		["Risky Dice"] = false,
-		["Star Rift "] = false
-	},
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1245451207024316437/HnzQUc6nd82fiC-GNM7xxEx-yyqgRxGbQOzMYdy3vFhUYcOSeOUGH62Opgy1J92ndC4z",
-	["AutoSell"] = false,
-	["AutoJoinWorld"] = true,
-	["PlayMacro"] = true,
-	["BoostFPS"] = true,
-	["AutoReplay"] = false,
-        ["AutoClaimQuest"] = true,
-	["AutoLeave"] = false
+    ["AutoRejoin"] = true,
+    ["AutoJoinMatch"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["AutoReplay"] = true,
+	["DelayReplay"] = 5,
+    ["SelectMap"] = "ToiletTown",
+    ["SelectMacro"] = "loisprite",
+    ["GameSpeed"] = "2",
+    ["AutoVoteDifficulty"] = "true",
+    ["SelectDifficulty"] = "Hard",
+    ["AutoReplay"] = true,
+    ["AutoSkip"] = true,
+    ["PlayMacro"] = true,
+    ["SetGameSpeed"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["BlackScreen"] = false,
+    ["IgnoreMacroTiming"] = true,
 }
 getgenv().Key = "kd2415278d2a026df7ecadb4"
 repeat wait() until game:IsLoaded()
