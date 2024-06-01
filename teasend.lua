@@ -24,7 +24,7 @@ getgenv().Config = {
 	},
 	["AutoRejoin"] = true,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1245451207024316437/HnzQUc6nd82fiC-GNM7xxEx-yyqgRxGbQOzMYdy3vFhUYcOSeOUGH62Opgy1J92ndC4z",
-	["AutoSell"] = true,
+	["AutoSell"] = false,
 	["AutoJoinWorld"] = true,
 	["PlayMacro"] = true,
 	["BoostFPS"] = true,
