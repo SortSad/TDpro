@@ -1,24 +1,26 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1243550336153550938/Mimix.json?ex=665c6e00&is=665b1c80&hm=095aebb2e1cba3b91a9596bea36722bf465590b6af995755d3f773c8b50c9983&"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1243550336153550938/Mimix.json?ex=6651e200&is=66509080&hm=01765c4bd49417e4323ee7c85e3bc7d6e19545f54a8a80f55461f91a16984eef&"
 getgenv().Config = {
-    ["AutoRejoin"] = true,
+    ["AutoVoteDifficulty"] = true,
+    ["AutoSave"] = true,
+    ["AutoReplay"] = true,
+    ["DelayReplay"] = 3,
+    ["SellWave"] = 1,
+    ["AutoSkip"] = true,
+    ["SetGameSpeed"] = true,
     ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["AutoReplay"] = true,
-	["DelayReplay"] = 5,
-    ["SelectMap"] = "ToiletTown",
-    ["SelectMacro"] = "Mimix",
-    ["GameSpeed"] = "2",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Insane",
-    ["AutoSkip"] = true,
-    ["PlayMacro"] = true,
-    ["SetGameSpeed"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["BlackScreen"] = false,
+    ["GameSpeed"] = 2,
+    ["AutoSellOW"] = false,
     ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "Mimix",
+    ["AutoJoinEndless"] = false,
+    ["PlayMacro"] = true,
+    ["BlackScreen"] = false,
+    ["BoostFPS"] = true,
+    ["AutoRejoin"] = true,
+    ["SelectDifficulty"] = "Insane"
 }
-getgenv().Key = "ke6982796efa8c52a555e7d9"
+getgenv().Key = "kd2415278d2a026df7ecadb4"
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
