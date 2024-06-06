@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1246388037810655354/1247934111318806569/GodKai_Event.json?ex=6661d4b5&is=66608335&hm=4ecaa152799770492a977db5028e0e81549781606a8133dcbef5fc8c1c4b1195&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1248405851752890408/eventV1.json?ex=66638c0d&is=66623a8d&hm=46306f4b34f0159b3f9323d398a55b6c30b0911f2774598f46e936cf1adcf882&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoVoteDifficulty"] = true,
@@ -13,7 +13,7 @@ getgenv().Config = {
     ["GameSpeed"] = 2,
     ["AutoSellOW"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "GodKai_EventGodKai_Event",
+    ["SelectMacro"] = "eventV1",
     ["SelectMap"] = "Hacked",
     ["AutoJoinEndless"] = false,
     ["PlayMacro"] = true,
