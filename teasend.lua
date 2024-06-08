@@ -16,6 +16,7 @@ getgenv().Config = {
     ["SelectMacro"] = "Mimix",
     ["AutoJoinEndless"] = false,
     ["PlayMacro"] = true,
+    ["SelectMap"] = "ToiletTown",
     ["BlackScreen"] = false,
     ["BoostFPS"] = true,
     ["AutoRejoin"] = true,
