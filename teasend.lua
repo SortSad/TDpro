@@ -7,7 +7,7 @@ getgenv().Config = {
 	["TPLobbyIfPlayer"] = false,
 
 	["BoostFPS"] = true,
-	["JoinerCooldown"] = 0,
+	["JoinerCooldown"] = 3,
 	["AutoSell"] = false,
 	["IgnoreMacroTiming"] = false,
 	["BlackScreen"] = true,
