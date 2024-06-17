@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1080869432185856124/1248112842411081829/farmev.json?ex=66627b2a&is=666129aa&hm=0ef22142fb10e5df271adde1887217d99de62147d1c348200b6d89f66e145ac1&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1243550336153550938/Mimix.json?ex=665c6e00&is=665b1c80&hm=095aebb2e1cba3b91a9596bea36722bf465590b6af995755d3f773c8b50c9983&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoVoteDifficulty"] = true,
@@ -13,10 +13,10 @@ getgenv().Config = {
     ["GameSpeed"] = 2,
     ["AutoSellOW"] = false,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "farmev",
-    ["SelectMap"] = "Hacked",
+    ["SelectMacro"] = "Mimix",
     ["AutoJoinEndless"] = false,
     ["PlayMacro"] = true,
+    ["SelectMap"] = "ToiletTown",
     ["BlackScreen"] = false,
     ["BoostFPS"] = true,
     ["AutoRejoin"] = true,
