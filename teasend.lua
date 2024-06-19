@@ -37,5 +37,3 @@ repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
 
-_G.Config =  { UserID = "360c9659-1b3d-4e2d-9080-e0561e801ef2", discord_id = 597362903582244883 , Note = "Pc", } 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
