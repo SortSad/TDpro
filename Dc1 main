@@ -20,6 +20,6 @@ getgenv().Config = {
     ["AutoRejoin"] = true,
     ["SelectDifficulty"] = "Insane"
 }
-getgenv().Key = "k48f8c4280756b81236cae2b"
+getgenv().Key = "k8dcc1c524c0d8ed51719f9e"
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
