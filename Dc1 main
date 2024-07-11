@@ -1,4 +1,26 @@
 
+getgenv().Config = {
+    ["AutoVoteDifficulty"] = true,
+    ["AutoSave"] = true,
+    ["AutoReplay"] = true,
+    ["DelayReplay"] = 1,
+    ["SellWave"] = 1,
+    ["AutoSkip"] = true,
+    ["SetGameSpeed"] = true,
+    ["AutoJoinMatch"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["GameSpeed"] = 2,
+    ["AutoSellOW"] = false,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "farm1",
+    ["AutoJoinEndless"] = false,
+    ["PlayMacro"] = true,
+    ["SelectMap"] = "Galaxy",
+    ["BlackScreen"] = false,
+    ["BoostFPS"] = true,
+    ["AutoRejoin"] = true,
+    ["SelectDifficulty"] = "Insane"
+}
 getgenv().Key = "k48f8c4280756b81236cae2b"
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
