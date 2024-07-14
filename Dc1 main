@@ -1,6 +1,6 @@
 getgenv().Config = {
 	["AutoVoteDifficulty"] = true,
-	["RequiredGem"] = 2000,
+	["RequiredGem"] = 4000,
 	["SellRarities"] = {
 		["Legendary"] = false,
 		["Basic"] = false,
