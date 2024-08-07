@@ -1,5 +1,5 @@
 getgenv().Config = {
-	["AutoVoteDifficulty"] = true,
+	["AutoVoteDifficulty"] = false,
 	["AutoSave"] = true,
 	["BlackScreen"] = false,
 	["DelayReplay"] = 5,
