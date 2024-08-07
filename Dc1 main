@@ -21,5 +21,4 @@ getgenv().Config = {
 	["SelectDifficulty"] = "Insane"
 }
 getgenv().Key = "ke6982796efa8c52a555e7d9"
-repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
