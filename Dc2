@@ -1,24 +1,5 @@
-getgenv().Config = {
-	["AutoVoteDifficulty"] = true,
-	["AutoSave"] = true,
-	["BlackScreen"] = false,
-	["DelayReplay"] = 5,
-	["SellWave"] = 1,
-	["AutoSkip"] = true,
-	["SetGameSpeed"] = true,
-	["AutoJoinMatch"] = true,
-	["TPLobbyIfPlayer"] = true,
-	["GameSpeed"] = 2,
-	["AutoSellOW"] = false,
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "farmev1",
-	["AutoRejoin"] = true,
-	["PlayMacro"] = true,
-	["SelectMap"] = "LastStand",
-	["AutoJoinEndless"] = false,
-	["BoostFPS"] = true,
-	["AutoReplay"] = true,
-	["SelectDifficulty"] = "Insane"
-}
-_G.Key = "022ace2c8853e477b260301a5752c9c9b0b484e8e5f5e7db85e5439e4e3df568"
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
+-- If you have more than 1 key, select only 1.
+_G.Key = "ALLMAP-BZKLD-521UK" --You have 6 d, 3 h, 56 m, and 32 s left.
+
+_G.DiscordId = "794926742670147584"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Baeyopll01/Exclusive/main/Exclusive.lua"))();
