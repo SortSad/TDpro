@@ -1,5 +1,28 @@
 -- If you have more than 1 key, select only 1.
 _G.Key = "ALLMAP-BZKLD-521UK" --You have 6 d, 3 h, 56 m, and 32 s left.
-
+getgenv().Config = {
+    "Grab Item":true,
+    "Health_Check_Percentage":"nil",
+    "Distance_Farm":15,
+    "Auto_Dungeon":false,
+    "autosave":true,
+    "AntiAFKEnabled":true,
+    "Method":"Upper",
+    "AntiDie":false,
+    "Auto Stats DevilFruit":true,
+    "Auto Stats Sword":true,
+    "Auto Stats Special":true,
+    "Auto Stats Melee":true,
+    "Auto Stats Defense":true,
+    "Auto Farm Orb Dungeon":false,
+    "GetWeapon":"Yoru",
+    "Select Mobs":[""],
+    "Auto Store Item":true,
+    "White_Screen":false,
+    "Auto Skill C":true,
+    "Auto Skill Z":true,
+    "Auto Skill V":true,
+    "Auto Skill X":true,
+    "Select Item Store":[""]}
 _G.DiscordId = "794926742670147584"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Baeyopll01/Exclusive/main/Exclusive.lua"))();
