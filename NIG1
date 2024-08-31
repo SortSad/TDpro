@@ -4,6 +4,3 @@ end
 if game.PlaceId == 17167990958 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/fps"))()
 end
-if game.PlaceId == 17167990958 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/Dc1"))()
-end
