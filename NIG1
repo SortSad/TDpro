@@ -1,3 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/Dc2"))() 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/fps"))() 
+
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))()
