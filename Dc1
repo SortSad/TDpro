@@ -1,37 +1,10 @@
 -- โหลด ORION Library
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
--- กำหนดคีย์ที่ต้องการ
-local correctKey = "niga"
-
--- ฟังก์ชันตรวจสอบคีย์
-local function checkKey(inputKey)
-    return inputKey == correctKey
-end
-
-
-        local keyInput = niga
-        if checkKey(keyInput) then
-            OrionLib:MakeNotification({
-                Name = "คีย์ถูกต้อง",
-                Content = "คีย์ที่คุณใส่ถูกต้อง! ขณะนี้คุณสามารถใช้งาน GUI ได้",
-                Image = "rbxassetid://6329056056",
-                Time = 5
-            })
-            -- เปิด GUI หลักเมื่อคีย์ถูกต้อง
+      -- เปิด GUI หลักเมื่อคีย์ถูกต้อง
             loadMainGUI()
             KeyWindow:Destroy()
-        else
-            OrionLib:MakeNotification({
-                Name = "คีย์ไม่ถูกต้อง",
-                Content = "คีย์ที่คุณใส่ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง",
-                Image = "rbxassetid://6329056056",
-                Time = 5
-            })
-        end
-    end
-})
-
+       
 -- ฟังก์ชันสร้าง GUI หลัก
 function loadMainGUI()
     local Window = OrionLib:MakeWindow({
