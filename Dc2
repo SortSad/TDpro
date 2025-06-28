@@ -1,7 +1,7 @@
 spawn(function()
     pcall(function()
-        while true do wait(10)
-            game:HttpGet("https://0ebfb6cc-8df8-4778-be8f-004b4dc536fb-00-24kksvotqndsm.pike.replit.dev/get?name="..tostring(game.Players.LocalPlayer.Name).."&seeds="..tostring(game.Players.LocalPlayer.leaderstats.Seeds.Value))
+        while true do wait(20)
+            game:HttpGet("https://0ebfb6cc-8df8-4778-be8f-004b4dc536fb-00-24kksvotqndsm.pike.replit.dev/get?name="..tostring(game.Players.LocalPlayer.Name).."&seeds="..tostring(require(game:GetService("Players").LocalPlayer.PlayerGui.LogicHolder.ClientLoader.Modules.ClientDataHandler):GetData().Seeds))
         end
     end)
 end)
