@@ -1,5 +1,1 @@
--- If you have more than 1 key, select only 1.
-_G.Key = "ALLMAP-JK14J-0K58L" --You have 6 d, 23 h, 59 m, and 49 s left.
 
-_G.DiscordId = "1221071123144245251"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Baeyopll01/Exclusive/main/Exclusive.lua"))();
