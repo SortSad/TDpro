@@ -1,3 +1,185 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/Dc2"))() 
+repeat
+	task.wait()
+until game:IsLoaded()
+	and game.Players.LocalPlayer
+	and game.Players.LocalPlayer.Character
+	and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SortSad/TDpro/main/fps"))() 
+local Service = {}
+local CachedServices = {}
+
+setmetatable(Service, {
+	__index = function(_, key)
+		if CachedServices[key] then
+			return CachedServices[key]
+		end
+		local success, service = pcall(function()
+			return cloneref(game:GetService(key))
+		end)
+		if not success then
+			service = game:GetService(key)
+		end
+		CachedServices[key] = service
+		return service
+	end,
+})
+
+local Players = Service.Players
+local Client = Players.LocalPlayer
+local PlayerGui = Client.PlayerGui
+
+local Workspace, ReplicatedStorage, TeleportService, GuiService, CoreGui, HttpService, VirtualUser, VirtualInputManager, TweenService, RunService =
+	Service.Workspace,
+	Service.ReplicatedStorage,
+	Service.TeleportService,
+	Service.GuiService,
+	Service.CoreGui,
+	Service.HttpService,
+	Service.VirtualUser,
+	Service.VirtualInputManager,
+	Service.TweenService,
+	Service.RunService
+
+local Garden_Tower_Defense = Instance.new("ScreenGui")
+Garden_Tower_Defense.Name = "ScreenGui"
+Garden_Tower_Defense.Parent = PlayerGui
+Garden_Tower_Defense.IgnoreGuiInset = true
+
+local Main = Instance.new("Frame")
+Main.Name = "Main"
+Main.Parent = Garden_Tower_Defense
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BackgroundTransparency = 0.10000000149011612
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.499622642993927, 0, 0.4994068741798401, 0)
+Main.Size = UDim2.new(1, 0, 1, 0)
+
+local Status = Instance.new("TextLabel")
+Status.Name = "Status"
+Status.Parent = Main
+Status.TextScaled = true
+Status.Text = ""
+Status.TextColor3 = Color3.fromRGB(255, 255, 255)
+Status.FontFace = Font.new("rbxasset://fonts/families/DenkOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Status.RichText = true
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BackgroundTransparency = 1
+Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0, 0, 0.1620403379201889, 0)
+Status.Size = UDim2.new(1, 0, 0.06868330389261246, 0)
+
+local Lego = Instance.new("ImageLabel")
+Lego.Name = "Lego"
+Lego.Parent = Main
+Lego.Image = "rbxassetid://72231787507883"
+Lego.ScaleType = Enum.ScaleType.Fit
+Lego.AnchorPoint = Vector2.new(0.5, 0.5)
+Lego.AutomaticSize = Enum.AutomaticSize.XY
+Lego.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lego.BackgroundTransparency = 1
+Lego.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lego.BorderSizePixel = 0
+Lego.Position = UDim2.new(0.4999130964279175, 0, 0.4434756636619568, 0)
+Lego.Size = UDim2.new(0.22699999809265137, 0, 0.38499999046325684, 0)
+
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+UIAspectRatioConstraint.Name = "UIAspectRatioConstraint"
+UIAspectRatioConstraint.Parent = Lego
+
+local PlyName = Instance.new("TextLabel")
+PlyName.Name = "PlyName"
+PlyName.Parent = Main
+PlyName.TextScaled = true
+PlyName.Text = ""
+PlyName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlyName.FontFace = Font.new("rbxasset://fonts/families/DenkOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+PlyName.RichText = true
+PlyName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlyName.BackgroundTransparency = 1
+PlyName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlyName.BorderSizePixel = 0
+PlyName.Position = UDim2.new(0, 0, 0.09442467987537384, 0)
+PlyName.Size = UDim2.new(1, 0, 0.06868330389261246, 0)
+
+local Data = Instance.new("TextLabel")
+Data.Name = "Data"
+Data.Parent = Main
+Data.TextScaled = true
+Data.Text = ""
+Data.TextColor3 = Color3.fromRGB(255, 255, 255)
+Data.FontFace = Font.new("rbxasset://fonts/families/DenkOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Data.RichText = true
+Data.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Data.BackgroundTransparency = 1
+Data.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Data.BorderSizePixel = 0
+Data.Position = UDim2.new(0, 0, 0.6638196706771851, 0)
+Data.Size = UDim2.new(1, 0, 0.06868330389261246, 0)
+
+local Collection = {}
+local RemoteFunctions = ReplicatedStorage:WaitForChild("RemoteFunctions")
+
+function Collection:FormatNumber(n)
+	if n >= 1e9 then
+		return string.format("%.1fb", n / 1e9)
+	elseif n >= 1e6 then
+		return string.format("%.1fm", n / 1e6)
+	elseif n >= 1e3 then
+		return string.format("%.1fk", n / 1e3)
+	else
+		return tostring(n)
+	end
+end
+
+task.spawn(function()
+	while wait() do
+		pcall(function()
+			local Seeds = Client.leaderstats.Seeds.Value
+			PlyName.Text = "Name : " .. tostring(Client)
+			Status.Text = "Status : Kai Seeds"
+			Data.Text = "Seeds : <font color='#00FF00'>" .. Seeds .. "</font>"
+		end)
+	end
+end)
+
+Client.Idled:Connect(function()
+	VirtualUser:CaptureController()
+	VirtualUser:ClickButton2(Vector2.new())
+end)
+
+if game.PlaceId == 108533757090220 then
+	while wait() do
+		Client.Character.HumanoidRootPart.CFrame = CFrame.new(
+			138.105499,
+			71.7316132,
+			815.472717,
+			0.707134247,
+			-0,
+			-0.707079291,
+			0,
+			1,
+			-0,
+			0.707079291,
+			0,
+			0.707134247
+		)
+		task.wait()
+		RemoteFunctions:WaitForChild("StartLobby_7"):InvokeServer()
+	end
+else
+	while wait(0.1) do
+		pcall(function()
+			if workspace:GetAttribute("BackpackDisabled") == true then
+				RemoteFunctions:WaitForChild("PlaceDifficultyVote"):InvokeServer("dif_impossible")
+				RemoteFunctions:WaitForChild("ChangeTickSpeed"):InvokeServer(2)
+			end
+			RemoteFunctions:WaitForChild("SkipWave"):InvokeServer("y")
+			if PlayerGui.GameGui.Screen.Middle.GameEnd.Visible == true then
+				RemoteFunctions:WaitForChild("RestartGame"):InvokeServer()
+			end
+		end)
+	end
+end
